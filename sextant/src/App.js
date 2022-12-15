@@ -5,10 +5,13 @@ import CardComponent from './components/Cards'
 
 function App() {
   return (
-        <>
+       <>
        <DenseAppBar />
-       <CardComponent/>
-       </>
+
+       <CardComponent  url={`https://api64.ipify.org?format=json`} for={`ipv4`}/>
+       <CardComponent  url={`https://api.ipify.org?format=json` } for={`ipv6`}/>
+
+      </>
   );
 }
 

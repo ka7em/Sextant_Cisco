@@ -11,7 +11,7 @@ export default function DenseAppBar() {
       <AppBar position="static">
         <Toolbar variant="dense">
           <Typography variant="h6" color="inherit" component="div">
-          <SignalCellularAltIcon/> {document.title} For Cisco
+          <SignalCellularAltIcon /> {document.title} For Cisco
           </Typography>
         </Toolbar>
       </AppBar>
