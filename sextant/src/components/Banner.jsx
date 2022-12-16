@@ -7,8 +7,8 @@ import SignalCellularAltIcon from '@mui/icons-material/SignalCellularAlt';
 
 export default function DenseAppBar() {
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+    <Box sx={{ flexGrow: 5, }}>
+      <AppBar position="static" sx={{backgroundColor: "midnightblue", pd:16}}>
         <Toolbar variant="dense">
           <Typography variant="h6" color="inherit" component="div">
           <SignalCellularAltIcon /> {document.title} For Cisco

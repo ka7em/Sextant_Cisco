@@ -1,3 +1,10 @@
+.beautify{
+  display: flex;
+  margin-top: 50px;
+  /* align-content: center; */
+  justify-content: space-evenly;
+  align-items: center;
+}
 .App {
   text-align: center;
 }

@@ -18,11 +18,11 @@ const [ip, setIP] = useState("")
 
 
   return (
-    <Card style={{ width: '18rem',
-     left: '18%', top: '49%', mt:12,
+    <Card  style={{ width: '16rem',
+     left: '1%', top: '49%', mt:12,
          transform: 'translate(,-50%)'
     }}>
-      <Card.Header>Universal IPv4/IPv6 address</Card.Header>
+      <Card.Header style={{backgroundColor:'lightgrey'}} >Universal IPv4/IPv6 address</Card.Header>
       <ListGroup variant="flush">
         <ListGroup.Item>Your Public {props.for} is</ListGroup.Item>
         <ListGroup.Item>{ip}</ListGroup.Item>
